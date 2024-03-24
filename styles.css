@@ -2,3 +2,66 @@
 *::before *::after {
   box-sizing: border-box;
 }
+
+:root {
+  --dark-background-primary-text-color: #f9faf8;
+  --dark-background-secondary-text-color: #e5e7eb;
+  --dark-background-color: #1f2937;
+
+  --button-color: #3882f6;
+
+  --quote-background-color: #e5e7eb;
+  --quote-text-color: #1f2937;
+
+  --light-background-primary-text-color: #1f2937;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+body {
+  font-family :Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark-background-color);
+  padding: 20px 200px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--dark-background-primary-text-color);
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+}
+
+.nav a {
+  color: var(--dark-background-secondary-text-color);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: var(--dark-background-color);
+  color: var(--dark-background-secondary-text-color);
+}
